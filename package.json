@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-ecommerce",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "Build-Css": "tailwindcss -i ./Core/Style.css -o ./Src/Main.Css",
+    "Watch": "tailwindcss -i ./Core/Style.css -o ./Src/Main.Css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "flowbite": "^2.5.2",
+    "vazirmatn": "^33.0.3"
+  }
+}
