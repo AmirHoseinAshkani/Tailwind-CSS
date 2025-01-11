@@ -1,0 +1,11 @@
+@layer components {
+  .beforeredline:before {
+    @apply absolute w-12 h-[6px] bg-red-600 top-[17px] right-0 content-[''];
+  }
+}
+
+@layer components{
+    .after-red-line:after   {
+        @apply absolute content-[''] w-full h-[6px] bg-red-600 top-[17px] right-[200px];
+    }
+}

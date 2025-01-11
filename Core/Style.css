@@ -1,4 +1,6 @@
-@import url('./_Font.css');
+@import url("./_Font.css");
+@import url("./_RedLine.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
